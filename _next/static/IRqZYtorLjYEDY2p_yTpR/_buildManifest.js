@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/video-studio-fe//_next/:path+",
+        "destination": "/video-studio-fe/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
